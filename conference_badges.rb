@@ -13,7 +13,7 @@ def assign_rooms (attendees)
     assignments.push("Hello, #{attendees[i]}! You'll be assigned to room #{i + 1}!")
     i+=1 
   end
-  attendees = assignments
+  assignments
 end
 
 def printer(attendees)
@@ -22,11 +22,7 @@ def printer(attendees)
    puts badge_maker (attendees[i])
    i+=1 
  end
-   i=0 
- while i < attendees.size do
-   puts assign_rooms (attendees).
-   
-   i+=1 
- end
+  
+
   
 end
