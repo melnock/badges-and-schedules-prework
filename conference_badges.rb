@@ -24,7 +24,7 @@ def printer(attendees)
  end
    i=0 
  while i < attendees.size do
-   assign_rooms (attendees)
+   assign_rooms (attendees[i])
    
    i+=1 
  end
