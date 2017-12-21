@@ -13,7 +13,7 @@ def assign_rooms (attendees)
     assignments.push("Hello, #{attendees[i]}! You'll be assigned to room #{i + 1}!")
     i+=1 
   end
-  assignments
+  attendees = assignments
 end
 
 def printer(attendees)
