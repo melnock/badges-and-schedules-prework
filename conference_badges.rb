@@ -22,7 +22,10 @@ def printer(attendees)
    puts badge_maker (attendees[i])
    i+=1 
  end
-  
-
+  i=0
+  while i<attendees.size do
+    puts assign_rooms(attendees)[i]
+    i+=1
+  end
   
 end
